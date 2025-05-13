@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>College Information Chatbot</h1>
+            <p>Ask me anything about our college!</p>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <div class="chat-box" id="chat-box">
+                    <!-- Chat messages will appear here -->
+                </div>
+                
+                <div class="input-area">
+                    <input type="text" id="user-input" placeholder="Type your question here...">
+                    <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+            
+            <div class="suggestion-chips">
+                <button class="chip">Admission Process</button>
+                <button class="chip">Courses Offered</button>
+                <button class="chip">Campus Facilities</button>
+                <button class="chip">Contact Information</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 College Chatbot | Developed for student assistance</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
